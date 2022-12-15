@@ -1,3 +1,15 @@
+.background{
+  background-image: url(https://images.pexels.com/photos/5745761/pexels-photo-5745761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  margin: 0;
+  padding: 0;
+  display:flow-root;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 95vh;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;

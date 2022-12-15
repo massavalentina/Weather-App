@@ -1,0 +1,19 @@
+.btn{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2px;
+    color: rgb(47, 99, 104);
+    background-color: #98dcfc83;
+    width: 50px;
+    border-radius: 10px; 
+    border-color: rgba(107, 211, 224, 0.411);
+    font-size: 14px;
+    padding: 4px;
+    text-transform: uppercase;
+  }
+
+  .inputS{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px; 
+    border-color: rgba(107, 211, 224, 0.411);
+
+  }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './SearchBar.css';
 
 export default function SearchBar({onSearch}) {
 
@@ -9,12 +10,8 @@ export default function SearchBar({onSearch}) {
       e.preventDefault();
       onSearch(city);
     }}>
-      <input
-        type="text"
-        onChange = { e => setCity(e.target.value)}
-        placeholder="Ciudad..."
-      />
-      <input type="submit" value="Agregar" />
+      <input className ="inputS" type="text" onChange = { e => setCity(e.target.value)} placeholder="add your city"/>
+      <input className="btn" type="submit" value="Add" />
     </form>
   );
 }

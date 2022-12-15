@@ -53,7 +53,6 @@ export default function App() {
     <div className="App">
         <Nav2 onSearch={onSearch}/>
         <Cards cities={cities} onClose={onClose}/>
-      <h1>Título</h1>
     </div>
   );
 

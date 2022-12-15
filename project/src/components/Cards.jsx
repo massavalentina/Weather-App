@@ -6,6 +6,7 @@ import Card from './Card.jsx';
 export default function Cards({cities, onClose}) {
   if(cities){
     return (
+    <div className='background'>
       <div className='cards'>
         {cities.map(c => <Card
             max={c.max}
@@ -18,10 +19,10 @@ export default function Cards({cities, onClose}) {
             id={c.id}
           /> )}
       </div>
-    );
+    </div> );
   } else {
     return(
       <div>Sin ciudades</div>
-    )
+   )
   }
 }
