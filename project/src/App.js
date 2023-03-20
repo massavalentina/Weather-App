@@ -7,6 +7,9 @@ import Cards from './components/Cards.jsx';
 
 
 export default function App() {
+
+  const Swal = require('sweetalert2')
+
   const [cities, setCities] = useState([]);
 
   const apiKey = '4ae2636d8dfbdc3044bede63951a019b'
@@ -35,7 +38,7 @@ export default function App() {
           setCities(oldCities => [...oldCities, ciudad]);
 
         } else {
-          alert("Ciudad no encontrada");
+          Swal.fire('City not found, try again');
         }
       });
 
